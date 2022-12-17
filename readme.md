@@ -2,6 +2,9 @@
 
 Uses a d1 mini with a wemos motor shield on top (HR8833 Motor Shield v1.0.0).
 
+<img width="648" alt="image" src="https://user-images.githubusercontent.com/777196/208253315-7bae8e05-2a8d-4ae6-a43c-3bd842519791.png">
+
+
 - No JS libraries
 - Web side in typescript
 - Communication via WebSockets
