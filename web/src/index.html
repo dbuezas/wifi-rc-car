@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Weeks Wifi Car</title>
+    <style>
+      @import "./index.css";
+      @import "./metal.css";
+    </style>
+  </head>
+  <body>
+    &nbsp;<select name="song" id="song">
+      <option>Songs</option>
+      <option value="elephant">Elephant</option>
+      <option value="harry">Harry</option>
+      <option value="imperial">Imperial</option>
+      <option value="mario">Mario</option>
+      <option value="pink">Pink</option>
+      <option value="starwars">Starwars</option>
+      <option value="takeonme">Takeonme</option>
+      <option value="tetris">Tetris</option>
+      <option value="godfather">Godfather</option>
+      <option value="thelick">Thelick</option>
+      <option value="pirates">Pirates</option>
+      <option value="axelf">Axel F.</option>
+    </select>
+    <select name="joystick-mode" id="joystick-mode">
+      <option value="unified">Joystick</option>
+      <option value="wheel-throttle">Wheel-Throttle</option>
+      <option value="throttle-wheel">Throttle-Wheel</option>
+      <option value="throttle-throttle">Throttle-Throttle</option>
+    </select>
+    <span id="status"></span> <span id="stats"></span>
+    <button id="record">RECORD</button>
+    <button id="play">PLAY</button>
+    <div id="container">
+      <div id="joy-unified">
+        <div class="x-bar"></div>
+        <div class="y-bar"></div>
+        <div class="dot metal radial"></div>
+      </div>
+      <div id="joy-left">
+        <div class="x-bar"></div>
+        <div class="y-bar"></div>
+        <div class="dot metal radial"></div>
+      </div>
+      <div id="joy-right">
+        <div class="x-bar"></div>
+        <div class="y-bar"></div>
+        <div class="dot metal radial"></div>
+      </div>
+    </div>
+    <script type="module">
+      import "./index.ts";
+    </script>
+  </body>
+</html>
